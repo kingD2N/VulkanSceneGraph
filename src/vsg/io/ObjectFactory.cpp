@@ -293,6 +293,10 @@ ObjectFactory::ObjectFactory()
     add<vsg::TouchUpEvent>();
     add<vsg::TouchMoveEvent>();
     add<vsg::ScrollWheelEvent>();
+    add<vsg::DropEvent>();
+    add<vsg::DropHoverEvent>();
+    add<vsg::DropLeaveEvent>();
+    add<vsg::DropFilesEvent>();
     add<vsg::WindowEvent>();
     add<vsg::ExposeWindowEvent>();
     add<vsg::ConfigureWindowEvent>();
@@ -300,6 +304,10 @@ ObjectFactory::ObjectFactory()
     add<vsg::KeyEvent>();
     add<vsg::KeyPressEvent>();
     add<vsg::KeyReleaseEvent>();
+    add<vsg::DropEvent>();
+    add<vsg::DropHoverEvent>();
+    add<vsg::DropLeaveEvent>();
+    add<vsg::DropFilesEvent>();
 
     // viewer
     add<vsg::Camera>();
